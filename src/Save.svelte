@@ -7,7 +7,7 @@
   export let value = "";
 
   onMount(async () => {
-      value = await get(key));
+      value = await get(key);
   });
 </script>
 
